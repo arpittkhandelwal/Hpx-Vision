@@ -75,6 +75,9 @@ The high-speed bridge to the frontend.
 
 ## 🌐 Dashboard (React + D3.js)
 
+![Dashboard Telemetry](assets/dashboard.png)
+
+
 ### 1. Dynamic Force-Directed Graph 
 - **Differential Updates**: Instead of re-rendering, the graph uses `d3-join` to smoothly morph existing nodes into new positions.
 - **Cluster Coloring**: Detected deadlocks are color-coded (Cluster A = Orange, Cluster B = Red) to help operators distinguish between multiple failure modes.
