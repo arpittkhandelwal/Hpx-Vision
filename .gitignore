@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.dylib
+
+# Visual Studio / IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Node / JS
+node_modules/
+dist/
+
+# Project-specific temporary files
+*.txt
+!README.md
+!CMakeLists.txt
+
+# Generated data
+vision_data.json
